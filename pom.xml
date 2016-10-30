@@ -26,7 +26,7 @@
             <id>public</id>
             <name>Public Repositories</name>
             <url>
-                http://192.168.30.12:8081/nexus/content/groups/public/
+                http://maven.aliyun.com/nexus/content/groups/public/
             </url>
         </repository>
     </repositories>
@@ -35,7 +35,7 @@
             <id>public</id>
             <name>Public Repositories</name>
             <url>
-                http://192.168.30.12:8081/nexus/content/groups/public/
+                http://maven.aliyun.com/nexus/content/groups/public/
             </url>
         </pluginRepository>
     </pluginRepositories>
