@@ -9,7 +9,7 @@
     <version>1.0</version>
     <modules>
         <module>test-mongodb-project</module>
-        <module>test-spring-cloud-projects</module>
+        <module>test-spring-cloud-demo-projects</module>
         <module>test-project</module>
     </modules>
 
