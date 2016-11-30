@@ -1,14 +1,14 @@
 package com.rubin.test.service.demo.remote;
 
 import com.rubin.test.remote.api.ComputeApi;
-import com.rubin.test.remote.api.WebRemote;
+import com.rubin.test.remote.api.WebApiRemote;
 import org.springframework.stereotype.Component;
 
 /**
  *
  * Created by rubin on 16-11-26.
  */
-@WebRemote(fallback = ComputeRemote.ComputeRemoteHystrix.class)
+@WebApiRemote(fallback = ComputeRemote.ComputeRemoteHystrix.class)
 public interface ComputeRemote extends ComputeApi {
 
     @Component

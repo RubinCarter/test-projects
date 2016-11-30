@@ -13,7 +13,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @FeignClient(value = "compute-service")
-public @interface WebRemote {
+public @interface Web1ApiRemote {
 
     /**
      * Alias for {@link FeignClient#fallback}.
