@@ -1,0 +1,10 @@
+spring.application.name: api-gateway
+server.port: 8888
+eureka.client.serviceUrl.defaultZone: http://eureka-primary:1111/eureka/,http://eureka-secondary:1112/eureka/,http://eureka-tertiary:1113/eureka/
+zuul.routes:
+  compute-service2:
+    path: /web2/**
+    serviceId: compute-service2
+  bilibili:
+    path: /bilibili/**
+    url:  http://www.bilibili.com
