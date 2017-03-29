@@ -3,20 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>test-projects</artifactId>
+        <artifactId>spring-cloud-demo-projects</artifactId>
         <groupId>com.rubin.test</groupId>
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>test-mongodb-project</artifactId>
+    <artifactId>spring-cloud-demo-web3-module2</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongo-java-driver</artifactId>
-            <version>3.2.2</version>
+            <groupId>com.rubin.test</groupId>
+            <artifactId>spring-cloud-demo-web3-module1</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
+
 
 </project>
