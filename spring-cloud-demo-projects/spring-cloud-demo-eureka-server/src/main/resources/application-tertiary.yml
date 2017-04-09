@@ -1,5 +1,2 @@
 server:
   port: 1113
-eureka:
-  instance:
-    hostname: eureka-tertiary
