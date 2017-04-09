@@ -1,11 +1,2 @@
-spring:
-  application:
-    name: eureka-primary
-  profiles:
-    active: primary
 server:
   port: 1111
-eureka:
-  client:
-    registerWithEureka: false
-    fetchRegistry: true
