@@ -1,2 +1,5 @@
 server:
   port: 1112
+eureka:
+  instance:
+    hostname: eureka-secondary
