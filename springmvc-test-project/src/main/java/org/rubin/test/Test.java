@@ -1,5 +1,6 @@
 package org.rubin.test;
 
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,11 +15,12 @@ import java.util.Map;
 @RestController
 public class Test {
 
-    @RequestMapping(value = "test1")
-    public Map<String, Object> test_1() {
+    @RequestMapping(value = "test/{version}")
+    public Map<String, Object> test_1(@PathVariable String version) {
         HashMap<String, Object> result = new HashMap<>();
         result.put("user", "rubin");
         result.put("data", "data");
+        result.put("version", version);
         return result;
     }
 
