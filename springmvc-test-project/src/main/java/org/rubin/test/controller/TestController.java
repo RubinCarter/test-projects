@@ -20,7 +20,7 @@ public class TestController {
     @GetMapping("test")
     public HashMap<String, Object> getTestText() {
         HashMap<String, Object> result = new HashMap<>();
-        result.put("error", "404");
+        result.put("error", "401");
         return result;
     }
 
